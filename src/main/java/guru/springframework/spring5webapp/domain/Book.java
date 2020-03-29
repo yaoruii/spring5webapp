@@ -13,9 +13,9 @@ public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    public Long id;
 
-    private String title;
+    public String title;
     private String isbn;
 
     //一个出版商出版很多书，一本书只有一个出版商
